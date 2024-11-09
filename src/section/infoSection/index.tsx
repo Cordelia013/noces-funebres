@@ -1,20 +1,21 @@
-import React from "react";
+
+import { InfoFooter } from "../../components/InfoFooter";
 
 function InfoSection() {
   return (
     <>
-      <div className="h-screen flex flex-col justify-center items-center text-[#e9eef5]">
+      <div className="h-screen flex flex-col justify-center items-center text-[#e9eef5] ">
         <div className="absolute">
           <img
             className="w-[237px] h-[242px] origin-top-left rotate-[-10deg] relative top-72 right-[28rem]"
-            src="/public/assets/les_noces_funebres 09.png"
+            src="/assets/les_noces_funebres 09.png"
             alt="image de stele"
           />
         </div>
         <div className="relative top-96 left-[29rem]">
           <img
             className="w-[237px] h-[242px] origin-top-left rotate-[8deg] "
-            src="/public/assets/les_noces_funebres 11.png"
+            src="/assets/les_noces_funebres 11.png"
             alt="image de rose"
           />
         </div>
@@ -28,7 +29,7 @@ function InfoSection() {
           <br />
           Funèbres
         </div>
-        <div className=" w-2/12 z-10 font-normal text-base  ">
+        <div className=" w-3/12 z-10 font-normal text-base  ">
           <span className="font-bold font-['EudoxusSans']">
             Victor Van Dort, un jeune homme timide, est fiancé à Victoria
             Everglot dans un mariage arrangé.
@@ -42,8 +43,9 @@ function InfoSection() {
             contraste frappant avec le monde des vivants.
           </div>
         </div>
-
-  
+      </div>
+      <div className="">
+        <InfoFooter />
       </div>
     </>
   );

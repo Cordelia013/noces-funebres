@@ -1,10 +1,11 @@
-import React from "react";
+
 
 function PersonSection() {
   return (
     <>
-      +<div>
-        <img src="/public/assets/les_noces_funebres 12.png z-" alt="" />
+      <div className="w-full z-20">
+        <h1>hello</h1>
+    
       </div>
     </>
   );

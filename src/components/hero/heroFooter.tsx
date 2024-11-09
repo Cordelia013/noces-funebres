@@ -8,7 +8,7 @@ interface HeroFooterProps {
 const HeroFooter: React.FC<HeroFooterProps> = ({ isMuted, onToggleSound }) => {
   return (
     <>
-      <div className="flex justify-between items-end h-full">
+      <div className="flex justify-between items-end h-full ">
         <img
           className="w-12 h-10 text-white"
           src="/assets/logo.webp"
