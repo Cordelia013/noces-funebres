@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import HeroFooter from "../../components/hero/heroFooter";
-// import HeroEfffect from "../../components/heroEffect/HeroEfffect";
+import HeroEfffect from "../../components/hero/HeroEfffect";
+
 
 const HeroSection: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -26,7 +27,7 @@ const HeroSection: React.FC = () => {
         />
         
         <div className="relative w-full h-full z-10">
-           {/* <HeroEfffect /> */}
+            <HeroEfffect /> 
           <video
             ref={videoRef}
             className="fixed top-0 left-0 w-full h-full object-cover "
