@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
             ref={videoRef}
             className="fixed top-0 left-0 w-full h-full object-cover "
             src="/public/assets/Corpse Bride (2005) Official Trailer - Tim Burton Animated Musical HD.mp4"
-            autoPlay
+            // autoPlay
             muted={isMuted}
             loop
           ></video>

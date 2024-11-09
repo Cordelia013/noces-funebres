@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function PersonSection() {
   return (
-    <div>personSection</div>
-  )
+    <>
+      +<div>
+        <img src="/public/assets/les_noces_funebres 12.png z-" alt="" />
+      </div>
+    </>
+  );
 }
 
-export default PersonSection
+export default PersonSection;
