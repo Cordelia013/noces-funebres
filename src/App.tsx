@@ -1,15 +1,17 @@
 import React from 'react';
-import HeroSection from './section/heroSection';
-import InfoSection from './section/infoSection';
-// import PersonSection from './section/personSection';
+import Home from './section/Home/Home';
+import Info from './section/infoSection/Info';
+
 
 const App: React.FC = () => {
   return (
-    <div className="">
-      <HeroSection />
-      <InfoSection />
-      {/* <PersonSection /> */}
-    </div>
+    <>
+      <Home />
+
+      <div className="bg-[#140011]">
+        <Info />
+      </div>
+    </>
   );
 }
 

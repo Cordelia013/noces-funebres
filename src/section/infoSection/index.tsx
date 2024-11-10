@@ -1,27 +1,26 @@
-
 import { InfoFooter } from "../../components/InfoFooter";
 
 function InfoSection() {
   return (
     <>
-      <div className="h-screen flex flex-col justify-center items-center text-[#e9eef5] ">
-        <div className="absolute">
+      <div className=" relative flex flex-col justify-center items-center text-[#e9eef5] ">
+        <div className="relative">
           <img
-            className="w-[237px] h-[242px] origin-top-left rotate-[-10deg] relative top-72 right-[28rem]"
-            src="/assets/les_noces_funebres 09.png"
+            className="w-52 origin-top-left rotate-[-10deg] relative top-[62rem] right-[28rem]"
+            src="/assets/img09.png"
             alt="image de stele"
           />
         </div>
         <div className="relative top-96 left-[29rem]">
           <img
-            className="w-[237px] h-[242px] origin-top-left rotate-[8deg] "
-            src="/assets/les_noces_funebres 11.png"
+            className="w-56 origin-top-left rotate-[8deg]"
+            src="/assets/img11.png"
             alt="image de rose"
           />
         </div>
 
         <div
-          className=" relative text-center 
+          className="relative text-center 
                       text-[50px] tablet:text-[100px] laptop:text-[150px] desktop:text-[200px] 
                       font-bold font-['BROTHER'] uppercase leading-[100px] tablet:leading-[200px] laptop:leading-[300px] desktop:leading-[350px]"
         >
@@ -29,7 +28,7 @@ function InfoSection() {
           <br />
           Funèbres
         </div>
-        <div className=" w-3/12 z-10 font-normal text-base  ">
+        <div className="w-3/12 z-10 font-normal text-base">
           <span className="font-bold font-['EudoxusSans']">
             Victor Van Dort, un jeune homme timide, est fiancé à Victoria
             Everglot dans un mariage arrangé.
@@ -44,7 +43,7 @@ function InfoSection() {
           </div>
         </div>
       </div>
-      <div className="">
+      <div>
         <InfoFooter />
       </div>
     </>

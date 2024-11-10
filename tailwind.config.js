@@ -16,12 +16,12 @@ export default {
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
-    fontFamily: {
-      futura: ['futura-pt', 'sans-serif'],
+ 
+    extend: {
+         fontFamily: {
+      TrashSecret: ['TrashSecret', 'serif'],
      
     },
-    extend: {
-      
     
     },
 
